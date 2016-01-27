@@ -1,7 +1,7 @@
 // Operators
 
 // JavaScript's numeric operators are +, -, *, / and % — which is the 
-// remainder operator (which is not the same as modulo.) Values are 
+// remainder operator (which is the same as modulo.) Values are 
 // assigned using =, and there are also compound assignment statements 
 // such as += and -=. These extend out to x = x operator y.
 

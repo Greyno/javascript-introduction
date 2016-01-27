@@ -13,7 +13,7 @@
 
 //There's our first brush with JavaScript objects! Did we mention 
 //that you can use strings like objects too? They have methods as 
-//well that allow you to manipulate the string and access information 
+//will that allow you to manipulate the string and access information 
 //about the string:
 
 "hello".charAt(0); // "h"

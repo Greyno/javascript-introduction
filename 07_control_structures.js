@@ -39,6 +39,9 @@ for (var i = 0; i < 5; i++) {
 // This is useful for checking for null objects before accessing their attributes:
 
 var name = o && o.getName();
+if(o && o.getName()){
+  var name = o.getName()
+}
 
 // Or for setting default values:
 
@@ -68,6 +71,7 @@ switch(action) {
 
 switch(a) {
   case 1: // fallthrough
+    code here;
   case 2:
     eatIt();
     break;

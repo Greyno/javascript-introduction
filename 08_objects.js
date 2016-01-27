@@ -55,8 +55,8 @@ function Person(name, age) {
 }
 
 // Define an object
-var You = new Person("You", 24); 
-// We are creating a new person named "You" 
+var you = new Person("You", 24); 
+// We are creating a new person named "you" 
 // (that was the first parameter, and the age..)
 
 // Once created, an object's properties can again be accessed in one of two ways:

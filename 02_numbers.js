@@ -10,10 +10,10 @@ var circumference = Math.PI * (r + r);
 
 // You can convert a string to an integer using the built-in 
 // parseInt() function. This takes the base for the conversion 
-// as an optional second argument, which you should always provide:
+// as an optional second
+parseInt("010", 10); // 10d argument, which you should always provide:
 
 parseInt("123", 10); // 123
-parseInt("010", 10); // 10
 
 // If you don't provide the base, you can get surprising results 
 // in older browsers (pre-2013):
