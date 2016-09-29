@@ -1,26 +1,26 @@
 // Numbers
 
-//The standard arithmetic operators are supported, including addition, 
-//subtraction, modulus (or remainder) arithmetic and so forth. There's 
-//also a built-in object that we forgot to mention earlier called Math 
-//that provides advanced mathematical functions and constants:
+//The standard arithmetic operators are supported, including addition,
+//subtraction, modulus (or remainder) arithmetic and so forth. There's
+// a built-in object called Math that provides advanced mathematical
+// functions and constants:
 
 Math.sin(3.5);
 var circumference = Math.PI * (r + r);
 
-// You can convert a string to an integer using the built-in 
-// parseInt() function. This takes the base for the conversion 
+// You can convert a string to an integer using the built-in
+// parseInt() function. This takes the base for the conversion
 // as an optional second
 parseInt("010", 10); // 10d argument, which you should always provide:
 
 parseInt("123", 10); // 123
 
-// If you don't provide the base, you can get surprising results 
+// If you don't provide the base, you can get surprising results
 // in older browsers (pre-2013):
 
 parseInt("010"); // 8
 
-//That happened because the parseInt() function decided to treat 
+//That happened because the parseInt() function decided to treat
 //the string as octal due to the leading 0.
 
 //If you want to convert a binary number to an integer, just change the base:
@@ -34,12 +34,12 @@ parseInt("11", 2); // 3
 
 + "42"; // 42
 
-//A special value called NaN (short for "Not a Number") 
+//A special value called NaN (short for "Not a Number")
 //is returned if the string is non-numeric:
 
 parseInt("hello", 10); // NaN
 
-//NaN is toxic: if you provide it as an input to any mathematical 
+//NaN is toxic: if you provide it as an input to any mathematical
 //operation the result will also be NaN:
 
 NaN + 5; // NaN
